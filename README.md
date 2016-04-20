@@ -18,6 +18,7 @@ discription:自己写的一些功能组件，今后不断完善中。<br /> &nbs
 ```
 var scroll = this.element.querySelector('ul[data-gnId="csSeckillScroll"]');
 var scrollPan = new comp.PanComponent();
+var liLen = scroll$.find('li').length;
 scrollPan.initialize(scroll,liLen,3,"li");
 ```
 
